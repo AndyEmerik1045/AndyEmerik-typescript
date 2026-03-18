@@ -1,0 +1,13 @@
+"use strict";
+//Meminta input nama dan umur (gunakan variabel langsung, tidak perlu input dari user).
+//Menampilkan pesan seperti: "Halo [nama], tahun depan umurmu [umur+1] tahun."
+//Gunakan tipe data yang sesuai.
+Object.defineProperty(exports, "__esModule", { value: true });
+function hello(nama, umur) {
+    return `Halo ${nama}, tahun depan umurmu ${umur + 1} tahun.`;
+    // tanda petik yang dipakai yg dibawah tombol esc (backtick)
+}
+const mahasiswa = "Andy";
+const umur = 19;
+console.log(hello(mahasiswa, umur));
+//# sourceMappingURL=tugas1.js.map
